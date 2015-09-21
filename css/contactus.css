@@ -1,0 +1,18 @@
+
+#maintext{
+	padding-top: 20px;
+	width: 500px;
+	line-height: 25px;
+
+}
+
+#menubarr.contactus a{
+	color: black;
+}
+#maintext img{
+	height: 25px;
+	width: 25px;
+	display:inline;
+	margin-left:0;
+	margin-right:0;
+}

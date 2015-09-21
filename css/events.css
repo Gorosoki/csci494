@@ -1,0 +1,19 @@
+#ev.events a{
+	color: black;
+}
+
+#maintext{
+	font-size: large;
+	line-height: 30px;
+	width: 590px;
+}
+
+h2{
+	text-align:center;
+}
+
+#photo img{
+	width:550px;
+	height:400px;
+	padding-top: 20px;
+}
