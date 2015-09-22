@@ -21,7 +21,7 @@ body {
 }
 
 #content{
-	width: 700px;
+	width: 900px;
 	text-align: left;
 	padding: 0;
 	margin: 0 auto;
@@ -36,20 +36,20 @@ body {
 }
 
 #border{
-	border-width: 1px;
+	border-width: 0px;
 	border-top: 0px;
 	border-bottom: 0px;
-	border-style: solid;
+	border-style: none;
 	border-color: black;
 	padding-bottom:35px;
-	height: 800px;
+	height: 100%;
 }
 /*nav bar styling*/
 
 .menuwrapper {
 	margin:0px auto;
 	padding-top: 5px;
-	width: 700px;
+	width: 900px;
 	height: 50px;
 	background-color:rgba(3,6,77,0.3);
 }
@@ -58,23 +58,24 @@ body {
 
 	margin: 130px 0 0 0;
 	padding: 0;
-	width: 700px;
+	width: 900px;
 	height: 58px;
 }
 
 .menuinner {
 	margin: 7px 0 0 0;
 	padding: 0;
-	width: 700px;
+	width: 900px;
 	position: absolute;
 }
 
 /*main navigation menu*/
 
 #access {
+
 	margin: 9px 0 0 20px;
 	padding: 0px;
-	position: absolute;
+/*	position: absolute;*/
 	font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -155,7 +156,7 @@ h2{
 
     height: 35px;
 	line-height: 35px;
-    width: 890px;
+    width: 900px;
 	font-size: x-small;
     /*border: 1px solid;
 	border-left: 0px;
@@ -187,8 +188,9 @@ h2{
 }
 #footer li{
 	float:left;
-	padding-right: 30px;
-	padding-left: 9px;
+    text-align: center;
+	padding-right: 50px;
+	padding-left: 25px;
 	text-decoration:none;
 
 }

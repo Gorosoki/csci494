@@ -1,5 +1,6 @@
 #maintext{
 	font-weight: bold;
+
 }
 
 h2{
@@ -8,6 +9,9 @@ h2{
 #photo img{
 	height:400px;
 	width:550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 
 }
 

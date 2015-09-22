@@ -8,7 +8,7 @@ Audience
 The target audience for the website is mainly college students, but also their parents who are interested in information about the group.
 
 Site Map
-There will be 5 pages (in the design, only the home page will be submitted)
+There will be 5 pages
 index/home- will be a general welcome, information page
 events - will provide information about events the group is participating in
 large group- provides information about the weekly large group meeting
