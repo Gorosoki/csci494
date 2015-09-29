@@ -4554,6 +4554,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
+  text-align: center;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4565,6 +4566,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
+  text-align: center;
 /*    font-size: medium:*/
 }
 .navbar-default .navbar-nav > li > a:hover,
