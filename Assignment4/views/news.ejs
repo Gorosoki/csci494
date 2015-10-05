@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+<ul>
+    <% for(var i=0; i<data.length; i++) {
+        var post = data[i];
+    %>
+    <li>
+        <h2><%= post.heading  %> </h2>
+        <div><%- JSON.stringify(post) -%></div>
+        <% if(post.type == "picture"){
+        %>
+            <img src="<%=post.imgUrl%>" />
+        <%}%>
+    </li>
+    <% } %>
+</ul>
+</body>
+</html>
