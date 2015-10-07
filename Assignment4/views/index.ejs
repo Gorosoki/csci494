@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel="stylesheet" href="../public/css/style.css" />
-    <script src="../public/js/sticky-nav-fluid.js"></script>
+      <% include header %>
   </head>
   <body>
-    <nav>
-    <ul id="topNav" class="nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/news">News</a></li>
-
-    </ul>
-    </nav>
+      <% include navbar %>
+    <div class="container">
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
-  </body>
+      </div>
+      <script type="text/javascript">
+        $(document).ready(function() {
+            $('#home').addClass("active");
+        });
+    </script>
+      <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+        src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        </body>
 </html>

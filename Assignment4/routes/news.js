@@ -10,7 +10,7 @@ router.get('/', function (req, res, next) {
     //var data = generatedData; //See Bottom
     var data = generateBlogPosts();
     console.log(data);
-    res.render('news', {title: 'News', data:data });
+    res.render('news', {title: 'The Outlet', data:data });
 });
 
 module.exports = router;
