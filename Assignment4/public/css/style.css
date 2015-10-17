@@ -39,3 +39,7 @@ p{
 img {
     width: 75%;
 }
+
+.navbar-brand{
+    padding: 25px 15px;
+}
