@@ -19,7 +19,7 @@
             <%}%>   </div>
         <% if(post.type == "picture"){
         %>
-            <%- post.content -%>
+            <h4><%- post.content -%></h4>
             <img src="<%=post.imgUrl%>" /><br>
         <%}%>
             <% if(post.type == "news" || post.type == "picture"){%><%- post.datePublished -%>
