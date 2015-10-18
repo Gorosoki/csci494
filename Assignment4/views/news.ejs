@@ -12,11 +12,18 @@
     %>
     <li>
         <h2><%= post.heading  %> </h2>
-        <div><%- JSON.stringify(post) -%></div>
+
+        <div><% if(post.type == "news"){%> Author: <%- post.author -%><br>
+            Email: <%- post.email -%> <br>
+            <%- post.content -%> <br>
+            <%}%>   </div>
         <% if(post.type == "picture"){
         %>
-            <img src="<%=post.imgUrl%>" />
+            <%- post.content -%>
+            <img src="<%=post.imgUrl%>" /><br>
         <%}%>
+            <% if(post.type == "news" || post.type == "picture"){%><%- post.datePublished -%>
+            <%}%>
     </li>
     <% } %>
 </ul>
@@ -32,3 +39,4 @@
         src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
 </html>
+<!--<%- JSON.stringify(post, null, 4) -%>-->
