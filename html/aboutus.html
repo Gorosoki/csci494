@@ -4,7 +4,7 @@
 		<meta content="text/html; charset=utf-8" http-equiv="content-type">
 		<link rel="shortcut icon" href="../images/favicon.ico">
 		<title>InterVarsity at Montana State University</title>
-        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="../css/style.css" rel="stylesheet" type="text/css">
         <script src="../js/bootstrap.js"></script>
         <script src="../js/bootstrap.min.js"></script>
@@ -14,28 +14,32 @@
 
 <body>
   <div class="container-fluid">
-		<a href="../index.html"><img src="../images/intervarsityheader.png" alt="InterVarsity Logo" ></a>
+		 <a href="../index.html"><img src="../images/intervarsityheader.png" alt="InterVarsity Logo" class="img-responsive"></a>
 		<div id="border">
-		<div class="menuwrapper">
-			<div class="menuinner">
-				<div id="access">
-					<div class="menu-header">
-						<ul id="menu-top-menu" class="menu">
-							<li id="menubar" class="home">
-								<a href="../index.html">Home</a></li>
-							<li id="lg" class="largegroup">
-								<a href="largegroup.html">Large Group</a></li>
-							<li id="ev" class="events">
-								<a href="events.html">Events</a></li>
-							<li id="au" class="aboutus">
-								<a href="aboutus.html">About Us</a></li>
-							<li id="menubarr" class="contactus">
-								<a href="contactus.html">Contact Us</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
+ <nav class="navbar navbar-default">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">InterVarsity</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="largegroup.html">Large Group</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li class="active"><a href="/">About Us</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
       <div class="row">
 		 <div class="col-sm-12">
 	<div id="maintext">
@@ -112,18 +116,24 @@
           </div>
             </div>
 	</div>
-		<div id="footerback">
-			<div id="footer">
-				<ul>
-					<li class="index"><a href="../index.html">Home</a></li>
-					<li><a href="largegroup.html">Large Group</a></li>
-					<li><a href="events.html">Events</a></li>
-					<li><a href="aboutus.html">About Us</a></li>
-					<li><a href="contactus.html">Contact Us</a></li>
-				</ul>
-			</div>
-		</div>
+		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+   <div class="navbar-header">
+      <a class="navbar-brand" href="../index.html">InterVarsity</a>
+   </div>
+   <div>
+      <ul class="nav navbar-nav">
+         <li><a href="../index.html">Home</a></li>
+         <li><a href="largegroup.html">Large Group</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li class="active"><a href="aboutus.html">About Us</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+
+      </ul>
+   </div>
+</nav>
 
 	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../js/bootstrap.js"></script>
 	</body>
 </html>
