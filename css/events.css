@@ -12,10 +12,22 @@ h2{
 }
 
 #photo img{
-	width:550px;
-	height:400px;
 	padding-top: 20px;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+}
+
+#photo ul{
+	padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#photo li{
+    left: 10%;
+   position:relative;
 }

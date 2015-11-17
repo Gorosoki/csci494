@@ -9,22 +9,16 @@ iframe{
     margin-right: auto;
 }
 #photo img{
-/*	height:400px;*/
-/*	width:550px;*/
+    vertical-align: middle;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 
 }
 h2{
 	text-align: center;
 }
-/*
-#content{
-	text-align: center;
-	margin: 0 auto;
-}*/
+
 #maintext p{
 	padding-top: 15px;
 }
