@@ -8,6 +8,7 @@ body {
 	text-align: left;
 	width:100%;
     padding-bottom: 100%;
+    padding-top: 10px;
 }
 
 h2, h3{
@@ -20,4 +21,10 @@ h2{
 
 .index a {
 	margin-left: 100px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
 }
