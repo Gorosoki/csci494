@@ -1,24 +1,6 @@
-/*Ordered According to HTML file*/
-body{
-
-}
 iframe{
     padding-top: 55px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-#photo img{
-    vertical-align: middle;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-h2{
-	text-align: center;
-}
-
-#maintext p{
-	padding-top: 15px;
 }
