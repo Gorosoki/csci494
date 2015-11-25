@@ -927,7 +927,7 @@
 		navigationSize      : false,     // Set this to the maximum number of visible navigation tabs; false to disable
 
 		// Slideshow options
-		autoPlay            : false,     // If true, the slideshow will start running; replaces "startStopped" option
+		autoPlay            : true,     // If true, the slideshow will start running; replaces "startStopped" option
 		autoPlayLocked      : false,     // If true, user changing slides will not stop the slideshow
 		autoPlayDelayed     : false,     // If true, starting a slideshow will delay advancing slides; if false, the slider will immediately advance to the next slide when slideshow starts
 		pauseOnHover        : true,      // If true & the slideshow is active, the slideshow will pause on hover
@@ -935,7 +935,7 @@
 		playRtl             : false,     // If true, the slideshow will move right-to-left
 
 		// Times
-		delay               : 3000,      // How long between slideshow transitions in AutoPlay mode (in milliseconds)
+		delay               : 4000,      // How long between slideshow transitions in AutoPlay mode (in milliseconds)
 		resumeDelay         : 15000,     // Resume slideshow after user interaction, only if autoplayLocked is true (in milliseconds).
 		animationTime       : 600,       // How long the slideshow transition takes (in milliseconds)
 		delayBeforeAnimate  : 0,         // How long to pause slide animation before going to the desired slide (used if you want your "out" FX to show).
